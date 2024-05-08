@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection = "proveedor")
-public classProveedor {
+public class Proveedor {
 
     @Id
     private String id;

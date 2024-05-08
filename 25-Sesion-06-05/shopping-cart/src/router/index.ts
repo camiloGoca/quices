@@ -5,11 +5,12 @@ import ClientePage from '../views/ClientePage.vue'
 import LoginPage from '../views/LoginPage.vue'
 import DasboardPage from '../views/DasboardPage.vue'
 import ProductoPage from '@/views/ProductoPage.vue';
+import ProveedorPage from '@/views/ProveedorPage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/proveedor'
   },
   {
     path: '/home',
@@ -34,6 +35,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/producto',
     name: 'Producto',
     component: ProductoPage
+  },
+  {
+    path: '/proveedor',
+    name: 'Proveedor',
+    component: ProveedorPage
   }
 ]
 
