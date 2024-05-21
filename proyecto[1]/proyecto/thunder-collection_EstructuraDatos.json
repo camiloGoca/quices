@@ -1,0 +1,34 @@
+http://localhost:8080/api/persona
+{
+    "tipoDocumento": "cedular",
+    "documento": "1003804067",
+    "nombre": "Andres Molina",
+    "telefono": "3204339802",
+    "direccion": "Conjunto"
+}
+http://localhost:8080/api/categoria
+{
+    "nombre": "Ferrari",
+    "descripcion": "2024"
+}
+http://localhost:8080/api/usuario
+{
+    "correo": "amolinaph@gmail.com",
+    "contraseña": "pepito",
+    "personaId":{
+        "id":1
+    }
+}
+http://localhost:8080/api/carro
+{
+    "marca": "Ferrari",
+    "modelo": "2024",
+    "placa": "IA",
+    "color": "Rojo",
+    "categoriaId":{
+        "id":1
+    },
+    "usuarioId":{
+        "id":1
+    }
+}
