@@ -1,0 +1,34 @@
+http://localhost:8080/api/persona
+{
+    "tipoDocumento": "cedular",
+    "documento": "1003867",
+    "nombre": "Camilo Gomez",
+    "telefono": "3204339802",
+    "direccion": "Ccasa"
+}
+http://localhost:8080/api/categoria
+{
+    "nombre": "audii",
+    "descripcion": "2053"
+}
+http://localhost:8080/api/usuario
+{
+    "correo": "acamilo@gmail.com",
+    "contraseña": "juan",
+    "personaId":{
+        "id":1
+    }
+}
+http://localhost:8080/api/carro
+{
+    "marca": "lambo",
+    "modelo": "2053",
+    "placa": "yrd",
+    "color": "verde",
+    "categoriaId":{
+        "id":1
+    },
+    "usuarioId":{
+        "id":1
+    }
+}
